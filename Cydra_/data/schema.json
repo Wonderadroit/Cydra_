@@ -1,0 +1,6 @@
+{
+  "hypothesis": {"name": "string", "probability": "prior/posterior", "predictions": "outcome likelihoods"},
+  "update": {"observation_name": "string", "observed_outcome": "string", "evidence_strength": "0..1"},
+  "unknown_prediction_policy": "do not invent likelihoods",
+  "next_stage": "decision and system-model integration"
+}

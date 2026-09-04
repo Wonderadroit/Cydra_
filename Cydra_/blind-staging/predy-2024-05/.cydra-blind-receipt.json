@@ -1,0 +1,361 @@
+{
+  "case_id": "predy-2024-05",
+  "corpus_fingerprint": "86ac7cad43a3522125cdcef9786037e2b1087a13bafb84b74ec1ff3810d9812b",
+  "file_manifest": [
+    {
+      "path": "out_of_scope.txt",
+      "sha256": "8806305c0e02759a20844970d79f2beba90b708a684f57a6cfc196579c1ac1fb"
+    },
+    {
+      "path": "scope.txt",
+      "sha256": "e0672ae26249ee657097df371a383c9fe4d8b02b9bebb68950b7d0c456db201c"
+    },
+    {
+      "path": "src/PredyPool.sol",
+      "sha256": "1637c3017d5ac2c2b8d690884257810f37b9eb66ffd45c4436a92aad4eedae13"
+    },
+    {
+      "path": "src/PriceFeed.sol",
+      "sha256": "a2d62997fc6afbd3ed3700b010861378f807a77e2d00a2727515929b257e599d"
+    },
+    {
+      "path": "src/base/BaseHookCallback.sol",
+      "sha256": "43d9774d0fc89859846acb5950af16d5147ed4ac52aef97ca5fd0c05680d2d2a"
+    },
+    {
+      "path": "src/base/BaseHookCallbackUpgradable.sol",
+      "sha256": "bf33996c859799d88ec790ba514d56a685186d94a47147f72dfdd882327f540f"
+    },
+    {
+      "path": "src/base/BaseMarket.sol",
+      "sha256": "5860f0271b21a034b931f0a0247cc72155346e9ee7726390d2ed4fc39911e16a"
+    },
+    {
+      "path": "src/base/BaseMarketUpgradable.sol",
+      "sha256": "a3492dd2fda6a2d37a2861141a1ce3b7bc168b58c7d8880907854c5885070ba4"
+    },
+    {
+      "path": "src/base/SettlementCallbackLib.sol",
+      "sha256": "3c8485438d0bb11aef0d87b71c430a3414b7dea2d5538b2454e4d010046491db"
+    },
+    {
+      "path": "src/interfaces/IFillerMarket.sol",
+      "sha256": "216e6beee7a1b2cc54ff3831e1d5ff7c872639ac82bbc30e62dd5fe9017dd442"
+    },
+    {
+      "path": "src/interfaces/IHooks.sol",
+      "sha256": "683410f70f0dbff363fece024fe9a5aadffe3e2fc6503eb675b6910ba0581b73"
+    },
+    {
+      "path": "src/interfaces/IPredyPool.sol",
+      "sha256": "5a321b810a23786b36ae5683b6a7efe3953d39b963e31fd3095a5b217d0635fe"
+    },
+    {
+      "path": "src/interfaces/ISettlement.sol",
+      "sha256": "c043d34183eacf9d964a9fb7cb31816afd406ce7415dcf56e5cbd06d1acf402e"
+    },
+    {
+      "path": "src/interfaces/ISpotMarket.sol",
+      "sha256": "f5e4133ab1698c1335998db4c0d4dc12b49e5592be3ee827ff6e77758b5a6c1b"
+    },
+    {
+      "path": "src/interfaces/ISupplyToken.sol",
+      "sha256": "720b1fb1d9a19cf7dd59d53127b9b72788816e06d2de99d228e05b3bb6225a73"
+    },
+    {
+      "path": "src/lens/GammaTradeMarketQuoter.sol",
+      "sha256": "90a3fa1d806c3ad731ef26942948a74f23e6fd2930e23a578c5453ed5ca72f39"
+    },
+    {
+      "path": "src/lens/PerpMarketQuoter.sol",
+      "sha256": "ccfaee75a556100e3947b55f484d8dcfa9af42ca6a236b42596e328465bcc64e"
+    },
+    {
+      "path": "src/lens/PredyPoolQuoter.sol",
+      "sha256": "dbc456028ebafbe907428bc36a2980e27c967a2485cd00954110c59b6f0c9248"
+    },
+    {
+      "path": "src/lens/SpotMarketQuoter.sol",
+      "sha256": "a53b82b5e67e991b0a17843104bb747591735193b9cd27203bb890edcb8fc385"
+    },
+    {
+      "path": "src/libraries/ApplyInterestLib.sol",
+      "sha256": "31b0a3249eb4a11f565b59b121d5a8a24ee104831804b2504a936a7f0cb24010"
+    },
+    {
+      "path": "src/libraries/Constants.sol",
+      "sha256": "3dc5794a32570a572ad1e2038c5c3e6e7df3a8de9a8899109fbd7460487db4a4"
+    },
+    {
+      "path": "src/libraries/DataType.sol",
+      "sha256": "efb94c5655c61e9f4960bf6385c5f655a128a988da6d6f8a71957c0c85ebb6dc"
+    },
+    {
+      "path": "src/libraries/InterestRateModel.sol",
+      "sha256": "94a1ef1fda4866b4dab61efc5700c805dde1e912a4e9fd66811094877fb69baf"
+    },
+    {
+      "path": "src/libraries/PairLib.sol",
+      "sha256": "9361a061f3b63ea68861a956c08efc093e2b14559a013fecd34880a6859fa082"
+    },
+    {
+      "path": "src/libraries/Perp.sol",
+      "sha256": "30b70bf6be22e8fbc1124366f326163a05f20d08f16bee5e03172d2def65fac1"
+    },
+    {
+      "path": "src/libraries/PerpFee.sol",
+      "sha256": "11256465f040d5d3f0a6fa91849617446416df7e3cbcd08270da872e6e5b6d2b"
+    },
+    {
+      "path": "src/libraries/PositionCalculator.sol",
+      "sha256": "ed8f9c340732d40c63b3463404161aee1d5e4d0d009d0494280791b40e762c81"
+    },
+    {
+      "path": "src/libraries/PremiumCurveModel.sol",
+      "sha256": "b93b1b245216d1eebe12ea7d83d84d367b4e1f97061aae0cf89452be8d2f23e0"
+    },
+    {
+      "path": "src/libraries/Reallocation.sol",
+      "sha256": "00c0b86169833d0c1644aeaa7977bd007389476e5779c34fe1fc67278c5eb3b4"
+    },
+    {
+      "path": "src/libraries/ScaledAsset.sol",
+      "sha256": "318c17e5bd3666b37f7421ab4c8e8a082a63431cf6d0362132849fd3f1766f4d"
+    },
+    {
+      "path": "src/libraries/SlippageLib.sol",
+      "sha256": "4618222ffeb91e0bba30892923b683a2c40de0683c011aabbe5caee0898a45d5"
+    },
+    {
+      "path": "src/libraries/Trade.sol",
+      "sha256": "0782743f5eb0bf34ad60c1ef469258af510760e8782aa57a139331e15dc59174"
+    },
+    {
+      "path": "src/libraries/UniHelper.sol",
+      "sha256": "ad479753e2fdf5f5b4bb6df37adab888210ef8f9b9b0dc3a1a89247cfbf404c9"
+    },
+    {
+      "path": "src/libraries/VaultLib.sol",
+      "sha256": "0405d8cb0a065672296aac84fd10633064b20fb249eeb88b6598338419d7f7ae"
+    },
+    {
+      "path": "src/libraries/logic/AddPairLogic.sol",
+      "sha256": "7332a6ac0ae49c4d5bca6bbfe79eaae7326a9b916eafd45dc78830445980d46f"
+    },
+    {
+      "path": "src/libraries/logic/LiquidationLogic.sol",
+      "sha256": "e1268079331b945a5604ff5e6e7e96db5246b189664ad0cbe08177877024e933"
+    },
+    {
+      "path": "src/libraries/logic/ReaderLogic.sol",
+      "sha256": "bcfab1fd18b0bcb05d6a9f4def7d9fcab19b5369e7f0a2a0b85ea92134d0bcb2"
+    },
+    {
+      "path": "src/libraries/logic/ReallocationLogic.sol",
+      "sha256": "325e00ca1c8882ffbff6d25de7a371d8815a99366fd6ea09fec0785de187a39e"
+    },
+    {
+      "path": "src/libraries/logic/SupplyLogic.sol",
+      "sha256": "50dd162154f03c8b5e2097d1634279e62c493ffc3a88f38b9180fd0c0d395839"
+    },
+    {
+      "path": "src/libraries/logic/TradeLogic.sol",
+      "sha256": "23b02372f138641c7156fab48d311e6d3c3b8937ba72202826bfdbe7bfdc415d"
+    },
+    {
+      "path": "src/libraries/math/Bps.sol",
+      "sha256": "28b2ac4969ab8ae32f97b0272d53ad9232d1d190b498decb5ee78e308e789542"
+    },
+    {
+      "path": "src/libraries/math/LPMath.sol",
+      "sha256": "efc0ee854c68cc35b65135a09e96396a53f38a44bd960b30131d87c6172c263b"
+    },
+    {
+      "path": "src/libraries/math/Math.sol",
+      "sha256": "19ec9ab13f5eca7e2ee0b0981647b4892126e87007875d93a841eebe0af7c412"
+    },
+    {
+      "path": "src/libraries/orders/DecayLib.sol",
+      "sha256": "3d8326db3ebed21c77d1b77372bc7850068dbd07c633386d687bee040622ba24"
+    },
+    {
+      "path": "src/libraries/orders/OrderInfoLib.sol",
+      "sha256": "a8baf0472a67cffd878134c24e8c30a46793f82612f9b6f3fd35efd1d86aaa60"
+    },
+    {
+      "path": "src/libraries/orders/Permit2Lib.sol",
+      "sha256": "116c5b64bfbb30dde94166721fb133051c82a0f443cb0b26d202ee7408f69da9"
+    },
+    {
+      "path": "src/libraries/orders/ResolvedOrder.sol",
+      "sha256": "a84b81c8aeb8308cbcaa39feb53a3b16b5779e1919eae32793cf471296fa2d50"
+    },
+    {
+      "path": "src/markets/L2Decoder.sol",
+      "sha256": "82967ee4e2af1853eb3da988fd058cd7dfeab94a20cf440b40facbdf142fc06e"
+    },
+    {
+      "path": "src/markets/gamma/ArrayLib.sol",
+      "sha256": "e7d85c0e2b6c946496b1786fe1a2cef092cea0509177c3e87d9ffe3587228157"
+    },
+    {
+      "path": "src/markets/gamma/GammaOrder.sol",
+      "sha256": "fabf2e8a53ff241621cc4a5b157d86ac71557fee2fc5cfd49ca6a66c1f132591"
+    },
+    {
+      "path": "src/markets/gamma/GammaTradeMarket.sol",
+      "sha256": "e0b6bd171fc2f82ada14cf136210543a84a63fccba57809b28f7d4959b5ec2c9"
+    },
+    {
+      "path": "src/markets/gamma/GammaTradeMarketL2.sol",
+      "sha256": "4a043fe5e095eb705270c9015758418c7826635c19cd95ecfc7772cc57c21282"
+    },
+    {
+      "path": "src/markets/gamma/GammaTradeMarketLib.sol",
+      "sha256": "ca7b9753982a455caa84a6209ac5252b34d72317a052d3c8769465f4549c5546"
+    },
+    {
+      "path": "src/markets/gamma/GammaTradeMarketWrapper.sol",
+      "sha256": "b6a8ed36d4080dded2761ee4aabf02c40baf507b9a2cc5b2abda742b779106f0"
+    },
+    {
+      "path": "src/markets/gamma/L2GammaDecoder.sol",
+      "sha256": "641cb8b0e987070d9ee9c90d1aa970d2e8b5ee6f5cf94365f7815ecce759b4c5"
+    },
+    {
+      "path": "src/markets/perp/PerpMarket.sol",
+      "sha256": "0d5cfe7a77ad96c025c2ebd5828cf90eea3b84c752b0b579c4a0c6a4615da4e0"
+    },
+    {
+      "path": "src/markets/perp/PerpMarketLib.sol",
+      "sha256": "227f7e34a425dae0d8a8da0649ab1aa7e0b3483f78e0417fcd9e76f026b67c8d"
+    },
+    {
+      "path": "src/markets/perp/PerpMarketV1.sol",
+      "sha256": "e6185fe0e9dc31a042c1eee2e270b578344e9e302d90d419f22cc9784d41a8f1"
+    },
+    {
+      "path": "src/markets/perp/PerpOrder.sol",
+      "sha256": "82b876ec3df8a40b9df0f9b95f414a556de658724df7995b384851280a769233"
+    },
+    {
+      "path": "src/markets/perp/PerpOrderV3.sol",
+      "sha256": "25aeabc9692b8bbcfac7ce243628e4a59294e49465cae8a8572dd02405b79bf9"
+    },
+    {
+      "path": "src/markets/spot/SpotMarket.sol",
+      "sha256": "8683e4a47ac114a1be3e564d4b71c990414d63ec5991d2cbf6018b3bf0176830"
+    },
+    {
+      "path": "src/markets/spot/SpotMarketL2.sol",
+      "sha256": "dab3a64a414b30e9f06a6f7bc90184ecdfa3941768188cec47fcf87aadf9feb5"
+    },
+    {
+      "path": "src/markets/spot/SpotOrder.sol",
+      "sha256": "28f7a1b51eed59f8dcf9b98158ee2263f75ac978bd79f5bb41df3c221d5e7ea8"
+    },
+    {
+      "path": "src/settlements/UniswapSettlement.sol",
+      "sha256": "a344e609f550c5c36bb301e94bfd5042bc40ebab6f303a29253f264f1b829232"
+    },
+    {
+      "path": "src/tokenization/SupplyToken.sol",
+      "sha256": "80db84af1740b79d556cf360025f9ef4514c6c00ec06be487c29c599159a7541"
+    },
+    {
+      "path": "src/types/GlobalData.sol",
+      "sha256": "c967032a51e01a7b9e3c93bb79a928aa4fa809bd86f63765356302bf19ccbf0c"
+    },
+    {
+      "path": "src/types/LockData.sol",
+      "sha256": "439c1bcb69c01e95599999f4eaaf9e6b4c987c9ab5d97269ce98db39c9e498f8"
+    },
+    {
+      "path": "src/vendors/AggregatorV3Interface.sol",
+      "sha256": "61eed922d44a50422d9b7c9bb754575e083b2195aa46f77197b96779a297f5b5"
+    },
+    {
+      "path": "src/vendors/IPyth.sol",
+      "sha256": "dedf5bc5956ee9d248ffc2494493b420a432a1755ad23fa416e72c157310d032"
+    },
+    {
+      "path": "src/vendors/IUniswapV3PoolOracle.sol",
+      "sha256": "7f82d05126ce1e335ea239da7080182b89955b58ca6e40e65226867518aa133a"
+    }
+  ],
+  "repository": "code-423n4/2024-05-predy",
+  "revision": "a9246db5f874a91fb71c296aac6a66902289306a",
+  "selected_paths": [
+    "out_of_scope.txt",
+    "scope.txt",
+    "src/PredyPool.sol",
+    "src/PriceFeed.sol",
+    "src/base/BaseHookCallback.sol",
+    "src/base/BaseHookCallbackUpgradable.sol",
+    "src/base/BaseMarket.sol",
+    "src/base/BaseMarketUpgradable.sol",
+    "src/base/SettlementCallbackLib.sol",
+    "src/interfaces/IFillerMarket.sol",
+    "src/interfaces/IHooks.sol",
+    "src/interfaces/IPredyPool.sol",
+    "src/interfaces/ISettlement.sol",
+    "src/interfaces/ISpotMarket.sol",
+    "src/interfaces/ISupplyToken.sol",
+    "src/lens/GammaTradeMarketQuoter.sol",
+    "src/lens/PerpMarketQuoter.sol",
+    "src/lens/PredyPoolQuoter.sol",
+    "src/lens/SpotMarketQuoter.sol",
+    "src/libraries/ApplyInterestLib.sol",
+    "src/libraries/Constants.sol",
+    "src/libraries/DataType.sol",
+    "src/libraries/InterestRateModel.sol",
+    "src/libraries/PairLib.sol",
+    "src/libraries/Perp.sol",
+    "src/libraries/PerpFee.sol",
+    "src/libraries/PositionCalculator.sol",
+    "src/libraries/PremiumCurveModel.sol",
+    "src/libraries/Reallocation.sol",
+    "src/libraries/ScaledAsset.sol",
+    "src/libraries/SlippageLib.sol",
+    "src/libraries/Trade.sol",
+    "src/libraries/UniHelper.sol",
+    "src/libraries/VaultLib.sol",
+    "src/libraries/logic/AddPairLogic.sol",
+    "src/libraries/logic/LiquidationLogic.sol",
+    "src/libraries/logic/ReaderLogic.sol",
+    "src/libraries/logic/ReallocationLogic.sol",
+    "src/libraries/logic/SupplyLogic.sol",
+    "src/libraries/logic/TradeLogic.sol",
+    "src/libraries/math/Bps.sol",
+    "src/libraries/math/LPMath.sol",
+    "src/libraries/math/Math.sol",
+    "src/libraries/orders/DecayLib.sol",
+    "src/libraries/orders/OrderInfoLib.sol",
+    "src/libraries/orders/Permit2Lib.sol",
+    "src/libraries/orders/ResolvedOrder.sol",
+    "src/markets/L2Decoder.sol",
+    "src/markets/gamma/ArrayLib.sol",
+    "src/markets/gamma/GammaOrder.sol",
+    "src/markets/gamma/GammaTradeMarket.sol",
+    "src/markets/gamma/GammaTradeMarketL2.sol",
+    "src/markets/gamma/GammaTradeMarketLib.sol",
+    "src/markets/gamma/GammaTradeMarketWrapper.sol",
+    "src/markets/gamma/L2GammaDecoder.sol",
+    "src/markets/perp/PerpMarket.sol",
+    "src/markets/perp/PerpMarketLib.sol",
+    "src/markets/perp/PerpMarketV1.sol",
+    "src/markets/perp/PerpOrder.sol",
+    "src/markets/perp/PerpOrderV3.sol",
+    "src/markets/spot/SpotMarket.sol",
+    "src/markets/spot/SpotMarketL2.sol",
+    "src/markets/spot/SpotOrder.sol",
+    "src/settlements/UniswapSettlement.sol",
+    "src/tokenization/SupplyToken.sol",
+    "src/types/GlobalData.sol",
+    "src/types/LockData.sol",
+    "src/vendors/AggregatorV3Interface.sol",
+    "src/vendors/IPyth.sol",
+    "src/vendors/IUniswapV3PoolOracle.sol"
+  ],
+  "snapshot_fingerprint": "a950ee7fd38912110e49fa8e34ae9df19e825372c58ba033891094de2e47a265"
+}

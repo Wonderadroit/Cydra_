@@ -1,0 +1,18 @@
+{
+  "case_id": "immunefi-arbitration-boost-2024-03",
+  "contest_name": "Boost | Immunefi Arbitration",
+  "repository": "immunefi-team/vaults",
+  "revision": "49c1de26cda19c9e8a4aa311ba3b0dc864f34a25",
+  "input_paths": [
+    "README.md",
+    "foundry.toml",
+    "src/"
+  ],
+  "excluded_paths": [
+    "reports/",
+    "report/",
+    "findings/",
+    "known-issues/",
+    "4naly3er-report.md"
+  ]
+}

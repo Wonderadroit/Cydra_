@@ -1,0 +1,18 @@
+{
+  "case_id": "size-2024-06",
+  "contest_name": "2024-06-size",
+  "repository": "code-423n4/2024-06-size",
+  "revision": "4c61f1a5d07e3a201c1990546dd8905b2d2ddf92",
+  "input_paths": [
+    "src/"
+  ],
+  "excluded_paths": [
+    "README.md",
+    "bot-report.md",
+    "reports/",
+    "findings/",
+    "known-issues/",
+    "audits/",
+    "discord-export/"
+  ]
+}

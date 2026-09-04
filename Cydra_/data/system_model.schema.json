@@ -1,0 +1,375 @@
+{
+  "edge_fields": [
+    "source",
+    "relation",
+    "target",
+    "attributes"
+  ],
+  "node_fields": [
+    "id",
+    "kind",
+    "label",
+    "attributes"
+  ],
+  "node_kinds": [
+    "asset",
+    "identity",
+    "trust_boundary",
+    "data_flow",
+    "invariant",
+    "evidence",
+    "hypothesis",
+    "observation",
+    "causal_chain",
+    "belief",
+    "finding",
+    "security_claim",
+    "security_predicate",
+    "contract",
+    "function",
+    "state_variable",
+    "file",
+    "module",
+    "class",
+    "import",
+    "entry_point",
+    "authorization",
+    "audit_session",
+    "execution_request",
+    "execution_result",
+    "poc",
+    "learning",
+    "program",
+    "resource",
+    "workspace",
+    "build"
+  ],
+  "persistence": "deterministic JSON",
+  "principle": "system structure and security reasoning share one validated graph",
+  "relations": {
+    "about": [
+      [
+        "finding"
+      ],
+      [
+        "hypothesis"
+      ]
+    ],
+    "asserts_security_predicate": [
+      [
+        "hypothesis"
+      ],
+      [
+        "security_predicate"
+      ]
+    ],
+    "constrains": [
+      [
+        "invariant"
+      ],
+      [
+        "asset",
+        "data_flow",
+        "identity"
+      ]
+    ],
+    "contains": [
+      [
+        "audit_session",
+        "file",
+        "module"
+      ],
+      [
+        "file",
+        "module",
+        "function",
+        "class"
+      ]
+    ],
+    "contradicted_by": [
+      [
+        "invariant"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "contradicts": [
+      [
+        "evidence",
+        "hypothesis",
+        "causal_chain",
+        "invariant"
+      ],
+      [
+        "evidence",
+        "hypothesis",
+        "causal_chain",
+        "invariant"
+      ]
+    ],
+    "crosses": [
+      [
+        "identity"
+      ],
+      [
+        "trust_boundary"
+      ]
+    ],
+    "demonstrates": [
+      [
+        "poc"
+      ],
+      [
+        "finding"
+      ]
+    ],
+    "derived_from": [
+      [
+        "evidence"
+      ],
+      [
+        "observation",
+        "evidence"
+      ]
+    ],
+    "derived_from_finding": [
+      [
+        "learning"
+      ],
+      [
+        "finding"
+      ]
+    ],
+    "derived_from_request": [
+      [
+        "poc"
+      ],
+      [
+        "execution_request"
+      ]
+    ],
+    "executes_request": [
+      [
+        "observation"
+      ],
+      [
+        "execution_request"
+      ]
+    ],
+    "explains": [
+      [
+        "causal_chain"
+      ],
+      [
+        "evidence",
+        "hypothesis"
+      ]
+    ],
+    "exposes": [
+      [
+        "function"
+      ],
+      [
+        "entry_point"
+      ]
+    ],
+    "external_call": [
+      [
+        "function"
+      ],
+      [
+        "data_flow",
+        "function"
+      ]
+    ],
+    "for_hypothesis": [
+      [
+        "poc"
+      ],
+      [
+        "hypothesis"
+      ]
+    ],
+    "grounds_invariant": [
+      [
+        "security_predicate"
+      ],
+      [
+        "invariant"
+      ]
+    ],
+    "imports": [
+      [
+        "module"
+      ],
+      [
+        "import"
+      ]
+    ],
+    "informs": [
+      [
+        "invariant",
+        "evidence"
+      ],
+      [
+        "hypothesis",
+        "evidence",
+        "invariant"
+      ]
+    ],
+    "motivates": [
+      [
+        "hypothesis"
+      ],
+      [
+        "causal_chain"
+      ]
+    ],
+    "plans": [
+      [
+        "causal_chain"
+      ],
+      [
+        "observation"
+      ]
+    ],
+    "produced": [
+      [
+        "observation"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "produced_evidence": [
+      [
+        "observation"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "reads": [
+      [
+        "function"
+      ],
+      [
+        "state_variable",
+        "data_flow"
+      ]
+    ],
+    "supported_by": [
+      [
+        "finding"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "supports": [
+      [
+        "evidence",
+        "causal_chain"
+      ],
+      [
+        "hypothesis",
+        "evidence"
+      ]
+    ],
+    "targets": [
+      [
+        "observation"
+      ],
+      [
+        "invariant"
+      ]
+    ],
+    "tested_by": [
+      [
+        "hypothesis",
+        "invariant"
+      ],
+      [
+        "observation"
+      ]
+    ],
+    "tests": [
+      [
+        "observation"
+      ],
+      [
+        "hypothesis"
+      ]
+    ],
+    "traced_by": [
+      [
+        "finding"
+      ],
+      [
+        "causal_chain"
+      ]
+    ],
+    "updated_to": [
+      [
+        "hypothesis"
+      ],
+      [
+        "belief"
+      ]
+    ],
+    "updates": [
+      [
+        "observation",
+        "evidence",
+        "invariant",
+        "causal_chain"
+      ],
+      [
+        "belief"
+      ]
+    ],
+    "uses_authorization": [
+      [
+        "module"
+      ],
+      [
+        "authorization"
+      ]
+    ],
+    "uses_evidence": [
+      [
+        "poc"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "verified_by": [
+      [
+        "invariant"
+      ],
+      [
+        "evidence"
+      ]
+    ],
+    "verified_by_trace": [
+      [
+        "security_predicate"
+      ],
+      [
+        "causal_chain"
+      ]
+    ],
+    "writes": [
+      [
+        "function"
+      ],
+      [
+        "state_variable",
+        "data_flow"
+      ]
+    ]
+  },
+  "schema_version": "1.22.0"
+}

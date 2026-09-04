@@ -1,0 +1,19 @@
+{
+  "case_id": "predy-2024-05",
+  "contest_name": "2024-05-predy",
+  "repository": "code-423n4/2024-05-predy",
+  "revision": "a9246db5f874a91fb71c296aac6a66902289306a",
+  "input_paths": [
+    "src/",
+    "scope.txt",
+    "out_of_scope.txt"
+  ],
+  "excluded_paths": [
+    "README.md",
+    "4naly3er-report.md",
+    "bot-report.md",
+    "reports/",
+    "findings/",
+    "known-issues/"
+  ]
+}

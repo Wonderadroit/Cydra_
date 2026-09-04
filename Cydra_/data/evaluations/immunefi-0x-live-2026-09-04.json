@@ -1,0 +1,70 @@
+{
+  "program_id": "0x",
+  "display_name": "0x",
+  "platform": "Immunefi",
+  "primary_locator": "https://immunefi.com/bug-bounty/0x/scope/",
+  "captured_from": [
+    "https://immunefi.com/bug-bounty/0x/information/",
+    "https://immunefi.com/bug-bounty/0x/scope/",
+    "https://immunefi.com/bug-bounty/0x/resources/"
+  ],
+  "capture_date": "2026-09-04",
+  "assets_in_scope": [
+    "Primacy Of Impact",
+    "0x Settler",
+    "Matcha website",
+    "gasless API",
+    "swap API",
+    "DEX Meta Aggregator"
+  ],
+  "smart_contract_scope": [
+    "0x00000000000004533Fe15556B1E086BB1A72cEae",
+    "0x0000000000001fF3684f28c67538d4D072C22734",
+    "0x0000000000005E88410CcDFaDe4a5EfaE4b49562",
+    "0x000000000000175a8b9bC6d539B3708EEd92EA6c",
+    "0x00000000000000CF9E3c5A26621af382fA17f24f",
+    "0x00000000000000304861c3aDfb80dd5ebeC96325",
+    "0x1CeC01DC0fFEE5eB5aF47DbEc1809F2A7c601C30"
+  ],
+  "source_tree": "https://github.com/0xProject/0x-settler/tree/master/src",
+  "documentation": "https://0x.org/docs/",
+  "supported_mainnet_chains": [
+    "Ethereum mainnet", "Ethereum Sepolia", "Polygon", "Base", "Optimism", "Arbitrum", "Bnb",
+    "World Chain", "Fantom Sonic", "Ink", "Monad", "Avalanche", "Unichain", "Berachain",
+    "Scroll", "HyperEvm", "Mantle", "Linea", "Abstract", "Tempo", "Plasma"
+  ],
+  "testnets_in_scope": false,
+  "poc_required": true,
+  "kyc_required": true,
+  "arbitration_enabled": true,
+  "out_of_scope": [
+    "Incorrect data supplied by third party oracles, except oracle manipulation/flash loan attacks",
+    "Impacts requiring basic economic and governance attacks",
+    "Lack of liquidity impacts",
+    "Impacts from Sybil attacks",
+    "Impacts involving centralization risks",
+    "Attacks requiring leaked keys or credentials",
+    "Attacks requiring privileged addresses without additional privilege modification",
+    "Impacts relying on external stablecoin depegging not directly caused by a code bug",
+    "Secrets or credentials mentioned in GitHub without proof of production use",
+    "Best practice recommendations",
+    "Feature requests",
+    "Impacts on test/configuration files unless explicitly in scope",
+    "Phishing or social engineering"
+  ],
+  "prohibited_testing": [
+    "Testing on mainnet or public testnet deployed code",
+    "Testing with pricing oracles or third-party smart contracts",
+    "Phishing or social engineering",
+    "Testing with third-party systems/applications/websites",
+    "Denial of service attacks against project assets",
+    "Automated testing that generates significant traffic",
+    "Public disclosure of an unpatched vulnerability in an embargoed bounty"
+  ],
+  "known_issue_rule": "Previously-discovered bugs listed by the program are not reward eligible; unfixed audit vulnerabilities are not eligible.",
+  "notes": [
+    "Scope is limited to listed addresses/assets, but smart-contract assets are not limited to one chain.",
+    "Testing is restricted to local forks of public testnet or mainnet.",
+    "Primacy of Impact applies to Smart Contract/Critical; other impacts follow Primacy of Rules."
+  ]
+}
